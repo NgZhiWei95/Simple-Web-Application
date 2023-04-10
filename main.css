@@ -1,0 +1,63 @@
+body {background-color: beige;}
+
+ul {
+  list-style:none;
+  text-align:center;
+  border-top:2px solid blue; border-bottom:2px solid blue;
+  padding:20px 0;
+}
+ul li {
+  display:inline;
+  text-transform:uppercase;
+  padding:0 20px; letter-spacing:20px;
+}
+ul li a { text-decoration:none; color:black; font-weight: bold; font-size: 20px; font-family: cursive;}
+ul li a:hover { text-decoration:underline; }
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.topSearches {
+  flex: 1;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.topSearches li {
+  margin-bottom: 15px;
+}
+.size {font-size: 20px; color: red;}
+
+.center {
+  flex: 2;
+  font-weight: bold;
+  text-align: center;
+}
+.size1 {font-size: 100px; font-family: 'Big Shoulders Stencil Text'; color: blue}
+.size2 {font-size: 50px; font-family: 'Big Shoulders Stencil Text'; font-style: italic; color: red}
+.size3 {font-size: 70px; font-family: 'Big Shoulders Stencil Text'; color: blue}
+.img {width: 40px; height: 40px; float: left; margin-left: 5%;}
+.search {width: 75%; height: 40px; float: left;}
+.img2 {width: 40px; height: 40px; float: left;}
+.button{color: white; background-color: black; padding: 10px; padding-left: 20px; padding-right: 20px;}
+
+.news {
+  flex: 1;
+  text-align: left;
+}
+.news1{font-family: sans-serif; font-weight: bold; color: red; font-size: 20px;}
+.imgNews1 {width: 200px; height: 100px;}
+.newsButton {font-weight: bold; padding: 10px; float: right;}
+
+@keyframes zoominoutsinglefeatured {
+    0% {transform: scale(1,1);}
+    50% {transform: scale(1.2,1.2);}
+    100% {transform: scale(1,1);}
+}
+.news2 img {
+  animation-duration: 1s;
+  animation-name: zoominoutsinglefeatured;
+  animation-iteration-count: infinite;
+}

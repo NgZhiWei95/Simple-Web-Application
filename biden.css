@@ -1,0 +1,52 @@
+body {background-color: beige;}
+
+ul {
+  list-style:none;
+  text-align:center;
+  border-top:2px solid blue; border-bottom:2px solid blue;
+  padding:20px 0;
+}
+ul li {
+  display:inline;
+  text-transform:uppercase;
+  padding:0 20px; letter-spacing:20px;
+}
+ul li a { text-decoration:none; color:black; font-weight: bold; font-size: 20px; font-family: cursive;}
+ul li a:hover { text-decoration:underline; }
+
+.title{font-family: 'Lobster', cursive; font-weight: bold; font-size: 45px;}
+.title1{color: red; font-style: italic;}
+.results{color: grey; font-style: italic;}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.news{flex: 1;}
+.videos{flex: 1;}
+.related{flex: 1;}
+.size{font-weight: bold; font-size: 25px;}
+.style1{color: blue; text-decoration: underline;}
+.news1{font-size: 18px;}
+.table tr td{font-size: 20px;}
+.table{text-align: center; margin-left: auto; margin-right: auto;}
+
+.videos1{font-weight: bold;font-size: 20px; margin-left: 100px;}
+.name1{color:blue; font-style: italic;}
+.video1{margin-left: 100px; float: left; padding-right: 20px; margin-bottom: 20px;}
+.video2{padding-top: 40px;}
+.video3{padding-top: 110px;}
+
+.img1{width: 30px; height: 30px; margin-left: 30px;}
+@keyframes zoominoutsinglefeatured {
+    0% {transform: scale(1,1);}
+    50% {transform: scale(1.5,1.5);}
+    100% {transform: scale(1,1);}
+}
+.img1 {animation: zoominoutsinglefeatured 1s infinite;}
+
+.img2{margin-left: 100px;float: left; width:100px; height: 100px; margin-right: 10px;}
+.words{font-size: 18px; font-weight: bold; margin-top: 40px;}
+.words1{font-style: italic; font-size: 15px; font-weight: lighter;}
+.words3{text-decoration: underline; color: blue; margin-left: 150px;}

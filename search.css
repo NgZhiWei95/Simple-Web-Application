@@ -1,0 +1,55 @@
+body {background-color: beige;}
+
+ul {
+  list-style:none;
+  text-align:center;
+  border-top:2px solid blue; border-bottom:2px solid blue;
+  padding:20px 0;
+}
+ul li {
+  display:inline;
+  text-transform:uppercase;
+  padding:0 20px; letter-spacing:20px;
+}
+ul li a { text-decoration:none; color:black; font-weight: bold; font-size: 20px; font-family: cursive;}
+ul li a:hover { text-decoration:underline; }
+
+.title{font-family: 'Cormorant Upright', serif; font-weight: bold; font-size: 45px;}
+.title1{color: red; font-style: italic;}
+.results{color: grey; font-style: italic;}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.item1{flex: 1;}
+.item2{flex: 1;}
+.item3{flex: 1;}
+
+.num1{font-size: 20px;}
+.num2{color: grey; font-style: italic;}
+.table tr td{font-size: 20px;}
+.table{text-align: center; margin-left: auto; margin-right: auto;}
+
+.table2{margin-left: 100px; border-style: solid; border-collapse: collapse;}
+.table2 td{padding: 10px; padding-right: 40px;}
+.td1{font-weight: bold; font-size: 20px;}
+.td2{text-decoration: underline; text-align: center; color: blue;}
+.shift{text-decoration: underline; color: blue; padding-left: 20px;}
+
+.links{font-size: 20px; font-weight: bold; margin-left: 100px; color:red;}
+.pic{width:150px; height: 150px; margin-left: 50px;}
+
+.videos1{font-weight: bold;font-size: 20px; margin-left: 100px;}
+.img1{width: 30px; height: 30px; margin-left: 30px;}
+@keyframes zoominoutsinglefeatured {
+    0% {transform: scale(1,1);}
+    50% {transform: scale(1.5,1.5);}
+    100% {transform: scale(1,1);}
+}
+.img1 {animation: zoominoutsinglefeatured 1s infinite;}
+
+.img2{margin-left: 100px;float: left; width:100px; height: 100px; margin-right: 10px;}
+.words{font-size: 18px; font-weight: bold; margin-top: 40px;}
+.words3{text-decoration: underline; color: blue; margin-left: 150px;}
